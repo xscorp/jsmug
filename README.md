@@ -18,11 +18,11 @@ $ gcc jsmug.c -o ./jsmug
 
 ### Encoding file:
 ```bash
-$ ./jsmug encode <input_file_name> <output_file_name>
+$ ./jsmug encode <input_file_name> <output_file_name> <bytes_per_pair>
 ```
 **Example:**
 ```bash
-$ ./jsmug encode ./malicious-binary encoded-binary.json
+$ ./jsmug encode ./malicious-binary encoded-binary.json 20
 ```
 
 In the below example, We encoded `naabu` binary in a JSON file named `sweet-document.json`.
