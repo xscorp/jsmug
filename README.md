@@ -100,6 +100,9 @@ Since these bytes are invisible to human eye and also ignored by JSON parsers, T
                        |=========| |=========|      |=========||=|                                                                      ▼
                             p1         p2                p3     p4
 ```
+<br/>
+
+The above ASCII diagram shows how raw bytes are represented in their Base4 representation. Then those Base4 bytes are mapped to their respective insignificant bytes. Based on the `bytes_per_pair` specified, The Base4 symbol bytes are divided in pairs and placed at certain locations in a JSON document. The ability to specify how many bytes should be together assits in bypassing any detection rules written specifically for this kind of action.
 
 
 
