@@ -97,8 +97,8 @@ Since these bytes are invisible to human eye and also ignored by JSON parsers, T
             +----------------------------------------------------------------+                                                          |       ▲
             | {"data":[\t\t\t\t\n{\t\t\n\t\t"json"\t\t\n\t\t:\r"smuggled"}]} |                      JSON Bytes                          |   DECODING
             +----------------------------------------------------------------+                                                          |
-                       |=========| |=========|      |=========||=|                                                                      ▼
-                            p1         p2                p3     p4
+                       |=========| |=======|      |========| |=|                                                                        ▼
+                            p1         p2             p3      p4
 ```
 <br/>
 
