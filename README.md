@@ -37,7 +37,7 @@ $ ./jsmug decode <encoded_file_name> <output_file_name>
 ```
 **Example:**
 ```bash
-$ ./jsmug encode ./encoded-binary.json decoded-binary
+$ ./jsmug decode ./encoded-binary.json decoded-binary
 ```
 
 
